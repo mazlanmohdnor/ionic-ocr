@@ -1,0 +1,36 @@
+ion-content {
+  --ion-background-color: var(--ion-bgcolor) !important;
+}
+
+ion-card {
+  box-shadow: var(--shadow-normal);
+  -webkit-box-shadow: var(--shadow-normal);
+  -moz-box-shadow: var(--shadow-normal);
+  border-radius: 0.625rem;
+}
+
+.no-data {
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 15.625rem;
+    margin: auto;
+  }
+
+  p {
+    padding: 0 2em;
+  }
+
+  h2 {
+    font-weight: 900;
+    margin-top: -1.875rem;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

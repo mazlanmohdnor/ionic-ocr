@@ -24,3 +24,29 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/quicksand.ttf');
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+* {
+  --ion-font-family: 'Quicksand', sans-serif !important;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.ios {
+  --ion-font-family: 'Quicksand', sans-serif !important;
+  font-family: 'Quicksand', sans-serif !important;
+}
